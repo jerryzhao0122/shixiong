@@ -1,0 +1,72 @@
+Traceback (most recent call last):
+  File "/home/featurize/work/FedL/FL_robust.py", line 17, in <module>
+    from fedlearn.server import Server  
+  File "/home/featurize/work/FedL/fedlearn/server.py", line 10, in <module>
+    from fedlearn.findAttacker import KMeans, findAttacker
+  File "/home/featurize/work/FedL/fedlearn/findAttacker.py", line 110, in <module>
+    from pyclustering.cluster.kmeans import kmeans
+  File "/cloud/yuan/lib/python3.9/site-packages/pyclustering/cluster/__init__.py", line 14, in <module>
+    import matplotlib.pyplot as plt
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/pyplot.py", line 57, in <module>
+    from matplotlib.figure import Figure, figaspect
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/figure.py", line 25, in <module>
+    from matplotlib import _blocking_input, docstring, projections
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/projections/__init__.py", line 56, in <module>
+    from .geo import AitoffAxes, HammerAxes, LambertAxes, MollweideAxes
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/projections/geo.py", line 253, in <module>
+    class AitoffAxes(GeoAxes):
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/artist.py", line 119, in __init_subclass__
+    cls._update_set_signature_and_docstring()
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/artist.py", line 147, in _update_set_signature_and_docstring
+    + kwdoc(cls))
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/artist.py", line 1749, in kwdoc
+    'Properties:\n' + '\n'.join(ai.pprint_setters(leadingspace=4)))
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/artist.py", line 1509, in pprint_setters
+    for prop in sorted(self.get_setters()):
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/artist.py", line 1435, in get_setters
+    or len(inspect.signature(func).parameters) < 2
+  File "/cloud/yuan/lib/python3.9/inspect.py", line 3113, in signature
+    return Signature.from_callable(obj, follow_wrapped=follow_wrapped)
+  File "/cloud/yuan/lib/python3.9/inspect.py", line 2862, in from_callable
+    return _signature_from_callable(obj, sigcls=cls,
+  File "/cloud/yuan/lib/python3.9/inspect.py", line 2325, in _signature_from_callable
+    return _signature_from_function(sigcls, obj,
+  File "/cloud/yuan/lib/python3.9/inspect.py", line 2214, in _signature_from_function
+    annotation = annotations.get(name, _empty)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/featurize/work/FedL/FL_robust.py", line 17, in <module>
+    from fedlearn.server import Server  
+  File "/home/featurize/work/FedL/fedlearn/server.py", line 10, in <module>
+    from fedlearn.findAttacker import KMeans, findAttacker
+  File "/home/featurize/work/FedL/fedlearn/findAttacker.py", line 110, in <module>
+    from pyclustering.cluster.kmeans import kmeans
+  File "/cloud/yuan/lib/python3.9/site-packages/pyclustering/cluster/__init__.py", line 14, in <module>
+    import matplotlib.pyplot as plt
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/pyplot.py", line 57, in <module>
+    from matplotlib.figure import Figure, figaspect
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/figure.py", line 25, in <module>
+    from matplotlib import _blocking_input, docstring, projections
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/projections/__init__.py", line 55, in <module>
+    from .. import axes, docstring
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/axes/__init__.py", line 1, in <module>
+    from ._subplots import *
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/axes/_subplots.py", line 3, in <module>
+    from matplotlib.axes._axes import Axes
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/axes/_axes.py", line 36, in <module>
+    from matplotlib.axes._secondary_axes import SecondaryAxis
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/axes/_secondary_axes.py", line 10, in <module>
+    class SecondaryAxis(_AxesBase):
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/artist.py", line 119, in __init_subclass__
+    cls._update_set_signature_and_docstring()
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/artist.py", line 140, in _update_set_signature_and_docstring
+    for prop in ArtistInspector(cls).get_setters()
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/artist.py", line 1436, in get_setters
+    or self.is_alias(func)):
+  File "/cloud/yuan/lib/python3.9/site-packages/matplotlib/artist.py", line 1443, in is_alias
+    ds = inspect.getdoc(o)
+  File "/cloud/yuan/lib/python3.9/inspect.py", line 624, in getdoc
+    return cleandoc(doc)
+  File "/cloud/yuan/lib/python3.9/inspect.py", line 639, in cleandoc
+    content = len(line.lstrip())
+KeyboardInterrupt

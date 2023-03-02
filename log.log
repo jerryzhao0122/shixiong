@@ -1,0 +1,10 @@
+ 1697  nohup sh run_robust_avg_iid.sh >> ~/result/run_logs/robust/fedavg_iid.log 2>&1 &
+ 1698  nohup sh run_robust_avg_noniid.sh >> ~/result/run_logs/robust/fedavg_noniid.log 2>&1 &
+ 1699  nohup sh run_robust_krum_iid.sh >> ~/result/run_logs/robust/krum_iid.log 2>&1 &
+ 1700  nohup sh run_robust_krum_noniid.sh >> ~/result/run_logs/robust/krum_noniid.log 2>&1 &
+ 1701  nohup sh run_robust_mipc_iid.sh >> ~/result/run_logs/robust/mipc_iid.log 2>&1 &
+ 1702  nohup sh run_robust_mipc_noniid.sh >> ~/result/run_logs/robust/mipc_noniid.log 2>&1 &
+ 1703  nohup sh run_robust_sign_iid.sh >> ~/result/run_logs/robust/sign_iid.log 2>&1 &
+ 1704  nohup sh run_robust_sign_noniid.sh >> ~/result/run_logs/robust/sign_noniid.log 2>&1 &
+ 1705  nohup sh run_robust_trummean_iid.sh >> ~/result/run_logs/robust/trummean_iid.log 2>&1 &
+ 1706  nohup sh run_robust_trummean_noniid.sh >> ~/result/run_logs/robust/trummean_noniid.log 2>&1 &

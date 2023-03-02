@@ -1,0 +1,17 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "white_box.py", line 22, in <module>
+    import wandb
+ModuleNotFoundError: No module named 'wandb'
+Traceback (most recent call last):
+  File "white_box.py", line 22, in <module>
+    import wandb
+ModuleNotFoundError: No module named 'wandb'
+Traceback (most recent call last):
+  File "white_box.py", line 22, in <module>
+    import wandb
+ModuleNotFoundError: No module named 'wandb'
+Traceback (most recent call last):
+  File "white_box.py", line 22, in <module>
+    import wandb
+ModuleNotFoundError: No module named 'wandb'
